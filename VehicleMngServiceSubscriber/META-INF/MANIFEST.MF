@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: VehicleMngServiceSubscriber
+Bundle-SymbolicName: VehicleMngServiceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: vehiclemngservicesubscriber.VehicleMngActivator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: com.mtit.vehiclemngservicepublisher,
+ org.osgi.framework;version="1.3.0"
+Export-Package: vehiclemngservicesubscriber
